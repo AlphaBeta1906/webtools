@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+       	<meta name="description" content="simple online tools web app">
+  		<meta name="keywords" content="web,tools,dev">
+  		<meta name="author" content="Farizi">
+        <title>My Application</title>
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="{{url_for("static",filename="style.css")}}"/>
+    </head>
+    <body>
+        <script src={{url_for("static",filename="app.js")}}></script>
+    </body>
+</html>
